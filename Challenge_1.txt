@@ -1,0 +1,3 @@
+Expected value is a theoretical concept. It represents the calculated average value that an event has.
+
+Contrarily, the mean (of a sample) is the average of the values we get from the experience of facing a number of events. 
