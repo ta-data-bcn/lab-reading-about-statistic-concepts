@@ -1,0 +1,3 @@
+Challenge 1: What is the difference between expected value and mean?
+
+The mean is the average calculated from a certain number of events, and the expected value is what you expect to get in a future event, based on the mean we have from past events.
