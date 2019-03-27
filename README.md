@@ -13,3 +13,8 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](https://towardsdatascience.com/what-is-expected-value-4815bdbd84de) article.
 
+
+## Solution
+The expected value is the sum of all the outcomes of a random variable multiplied by it's probability. It gives an overall view of if the total outcome is positive, negative or neutral.
+
+On the other hand, the mean is just a random variable than gives a descriptive statistic describing the central value of a sample/population/... of RV.
