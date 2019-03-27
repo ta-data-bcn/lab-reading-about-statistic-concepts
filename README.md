@@ -13,3 +13,8 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](https://towardsdatascience.com/what-is-expected-value-4815bdbd84de) article.
 
+The expected value of a random variable is the long-run average value of repetitions of the experiment. In other words, the arithmetic mean of the values converges to the expected value as thenumber of repetitions approaches infinity. 
+
+The expected value is also known as the expectation, mathematical expectation, EV, average, mean value, mean, or first moment.
+
+Hence, the mean of the population is the same as the expected value.
