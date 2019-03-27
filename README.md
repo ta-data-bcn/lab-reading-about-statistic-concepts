@@ -22,3 +22,7 @@ However, for most of the time, these two terms are interchangeably used.
 
 As a good reference (once you have looked for some information) you have   [this](https://towardsdatascience.com/what-is-expected-value-4815bdbd84de) article.
 
+## Challenge 2: What is the "problem" in science with p-values?
+We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
+
+Don't hesitate to use more articles if you want to :)
