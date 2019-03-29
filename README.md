@@ -11,10 +11,18 @@ Remember for this lab: there is a right answer. But there is no perfect way to e
 ## Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
 
-As a good reference (once you have looked for some information) you have   [this](https://towardsdatascience.com/what-is-expected-value-4815bdbd84de) article.
+As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
+
+## Challenge 2: What is the "problem" in science with p-values?
+We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
+
+Don't hesitate to use more articles if you want to :)
 
 
-## Solution
+## Solution 1
 The expected value is the sum of all the outcomes of a random variable multiplied by it's probability. It gives an overall view of if the total outcome is positive, negative or neutral.
 
 On the other hand, the mean is just a random variable than gives a descriptive statistic describing the central value of a sample/population/... of RV.
+
+## Solution 2
+Talking about statistical significance doesn't make sense, because you are building all your tests on a sample not the whole population. P value is just one of many things to consider and we should all understand that what we are trying to do is REJECT THE FALSE HYPOTHESIS, not accept ours.
