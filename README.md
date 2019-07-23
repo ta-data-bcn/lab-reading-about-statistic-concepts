@@ -10,10 +10,21 @@ This week you will find some questions here that you will need to answer by docu
 
 Remember for this lab: there is a right answer. But there is no perfect way to explain it (except for in a mathematical way, but this is another story).
 
-## Challenges
+## Challenges - ONLY CHALLENGE 1
 
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
+
+##### expected value:
+- is the expected value of a random variable (mean if sample mean would be measured an infitite number of times) 
+- "probability weighted mean of all values" 
+- encompasses the WHOLE population.
+- μ = (Σ * X)/ N
+
+##### mean: 
+- the average of a group characteristic (sum of all variables/total number of variables) - only for sample representation
+- x̄ = (Σ * x̄n)/ N
+
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
