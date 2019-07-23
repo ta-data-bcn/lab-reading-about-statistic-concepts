@@ -17,6 +17,11 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+Expected value: Mathematical mean, supposing all the values spread to a single number, that would be the mean,
+and with an infinite number of experiments the value will be always be the expected value.
+
+Mean: It can be the expected value (if we are talking aabout the mean of a random variable) or not (if we are talking about a sample mean as it is never reaching that value in reality, as we can not even be close to the infinite)
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
