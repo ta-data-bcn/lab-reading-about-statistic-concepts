@@ -30,8 +30,10 @@ As a good reference (once you have looked for some information) you have   [this
 
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
+p values are a tool to be used to reject the the 0 hypothesis. They are NOT, however, a tool to proof a hypothesis correct or incorrect. A value outside of the range, doesn't show there is no association between values as a certian uncertainty has to be taken into account.
 
-Don't hesitate to use more articles if you want to :)
+
+
 
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
