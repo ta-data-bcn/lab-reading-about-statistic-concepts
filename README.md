@@ -15,6 +15,8 @@ Remember for this lab: there is a right answer. But there is no perfect way to e
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
 
+No, they are not synonims. The expect value is the obtain number based on the probability, while the mean is obtained through the observations. 
+
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
 ### Challenge 2: What is the "problem" in science with p-values?
