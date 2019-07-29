@@ -17,10 +17,22 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+**Answer**
+The expected values is a concept that is strictly related to probability and is related to the value that we expect a Random Variable X to take. In case all the different possibilities have the same weight and therefore probability to happen then the mean of those possibilities corresponds with the expected value but, for example, a weighted coin or dice that is more likely to fall on tails or roll on a 1 will not respect the mean.
+
+The mean is also a mathematical concept that has nothing to do with probability per se.
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
+
+**Answer**
+I believe that the main problem with the p-value is that, even though it sounds ugly, science is also a money-driven businesses. Researchers need to pay the bills and to do that they need grants, and to get grants they need to show positive results, because even though a study with a low significance STILL gives us very useful information that can be used in further research saying "I finished my research through grant X and I have found no/low significance" sounds worse than the opposite, especially when the objective is getting your paper published in science journals and impressing people who sometimes are less knowledgeable about the topic than the average researcher and therefore do not understand the nuances of something like the p-value.
+
+We just collectively decided to set a hard-limit to divide "significance" and "non-significance" when the amount of things that could be factored in the results of a research are still outside of our complete grasp, thus invalidating research that could be actually valid and show useful information.
+
+This pressures scientists and researcher to go as far as manipulate the data of their research (e.g. taking into consideration only certain parts) just to get the p-value under 0.05 because, at the end of the day, having a research that is considered significant (and thus valid) is usually the difference between paying the bills or be out of work.
 
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
@@ -44,6 +56,11 @@ So we call a designer and after a lot of work he shows us a new design for our a
 *Click here to discover cool games!*
 
 We think it will work but can we be sure? So instead of implementing this new botton for all users, we implement it for 10% and we compare the results with the users that didn't have it. Is there a significant difference? Is our botton working?
+
+**Answer**
+
+I am not sure about the question but I suppose an A/B testing is the best option here. We simply take a sample and divide it into a control group that will see no change and a test group that will have the new button. We then wait until we have a collected enough data to go forward with our analysis and check if there was an improvement or not.
+
 
 Read more about A/B testing with a couple of examples:
 
