@@ -16,17 +16,18 @@ Remember for this lab: there is a right answer. But there is no perfect way to e
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
-
+__:
 Expected value: Mathematical mean, supposing all the values spread to a single number, that would be the mean,
 and with an infinite number of experiments the value will be always be the expected value.
-
+__:
 Mean: It can be the expected value (if we are talking aabout the mean of a random variable) or not (if we are talking about a sample mean as it is never reaching that value in reality, as we can not even be close to the infinite)
 
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
-
+__:
+So the problem with the p-values is that it can be so accurate that a lot of people might think that it is the reality just because there are no significant changes between the sets you are comparing, but it is not. P-values are just statistics, and these kind of statistics that need to compare two sets is that they might(and probably, almost for sure) not be the same, and even if the difference is so small you can not realize because of that, it does exist too, and we can not forget that
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
@@ -59,6 +60,8 @@ Read more about A/B testing with a couple of examples:
 [An example with Python](http://math.social/tested3)
 
 [A cool general explanation](http://arts.show/tested7)
+__:
+So we have a problem here: The B test has not so many interactions (10% is way low sample to have final conclusions) considering that the only reason that would make us have less traffic in our application, and probably adding a new button won't be so relevant here
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
