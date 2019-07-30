@@ -55,21 +55,10 @@ Read more about A/B testing with a couple of examples:
 
 [A cool general explanation](http://arts.show/tested7)
 
+So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
 
 ## Submission
 Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
-
-##  Challenge 1 Answer:
-
-Expected value is the value that you are most likely to get when generating a random variable from a sample or population. It is the mid point of a normal distribution and from which the probability diminisher as the vaulues get further away. Expected value is the mean of the sample and is therefore the same thing as a sample mean. The population mean, on the other hand, is the actual value observed from the entire population. As the entire population is often too large to observe every single element, this mean is usually never known and has to be estimated by an expected value through statistics and hypothesis testing. 
-
-
-##  Challenge 2 Answer:
-
-The p-value is a measure to determine the statistical significance of a research result. In science it is a common perception that only studies with a p-value under 0.05 (a 5% significance level) is considered significant and thereby relevant to give conclusive insights. Nature magazine and many other sicence institutions critizise this perception because even though a study might not satisfy enough factors to be statistically significant, it can still be the case that one clearly can conclue a correlational effect size. Because two replicated experiments under almost identical conditions could much possibly generate a p value of under 0.01 and another of over 0.3. It is therefor important that conclusiveness of studies be evaluated on other criteria than p-values. Complements to p-values include data tabulation and logical deductions through conceptual analysis. 
-
-
-##  Challenge 3 Answer:
-If the sample size in the A/B testing is sufficient enough and other influencing factors can be acounted for, then yes it can be concluded tht these is a significance difference and appropriate decisions can be taken thereafter. It is however crucial to also analyse other relevant factors that change as a result from the new implementation. For example, maybe more applicants are achieved through the new method but its is not sure that these applicants are of the same quality as th eold ones and thus not as useful for the intended purpose. It can also be that an increase in the desired input simultaneously causes a decrease in another factor which equals out the actual benefit. However, also remember the p-value is prone to unaccounted for factors 
