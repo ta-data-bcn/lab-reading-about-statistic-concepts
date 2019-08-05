@@ -17,18 +17,35 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+No they aren't. The expected value for a discreet random value is the
+sum of the all possibilities by the probability of each. Insted of mean
+that is the expected value for just the samples. The expected value is
+the mean of a RV.
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
 
-
+Basically, the problem of p-values ​​is that they should be given a more
+semantic interpretation than a scientific function. We can not affirm
+categorically the accomplishment of a result based on this variable,
+since each study can give a different result based on the value that we
+have determined. Hence the change in terminology is posed, because two
+studies do not show a correlation does not mean that one of the two is
+wrong. Care must be taken with hasty conclusions. The value of the
+p-values ​​is adaptable to the study that is carried out and therefore
+the use of this should also be part of the result of the experiment.
+That is why we will use terminology that does not generate doubts when
+accepting or rejecting hypotheses. Some examples derived from this text 
+would be: "There is sufficient statistical evidence to reject the 95%
+hypothesis" or "We do not have sufficient evidence to reject the null
+hypothesis."
 ### Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
 * A marketing campaign.
 * A new feature in our application. 
-* A new design in our application.
-* A different flow in the User Experience flow.
+* A new design in our application.saperience flow.
 
 To do this, is very important first to design our experiment. 
 * We need to know how we are measuring the impact. If people has the behaviour we want with this new implementation.
