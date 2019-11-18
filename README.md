@@ -15,6 +15,12 @@ Remember for this lab: there is a right answer. But there is no perfect way to e
 ### Challenge 1: What is the difference between expected value and mean?
 You know both concepts but, is there a difference? Are they synonims? Start investigating. 
 
+**The mean is the sum of all values from an experiment divided by the total number of element that form the set**
+
+**The expected value is the probability-weighted value. It is the product of each single value for the different event of experiment multiplied by the probability that occurs each single event.**
+
+**When the there is equitative probability between all events (die roll), mean and value expected coincide.**
+
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
 ### Challenge 2: What is the "problem" in science with p-values?
