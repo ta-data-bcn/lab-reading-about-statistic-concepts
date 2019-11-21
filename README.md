@@ -17,6 +17,8 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+Answer: The expected value is the mean of our measurable space multiplied by the probability of each case. Is what we can expect BEFORE our tests if we have a large number of attempts. The mean will be the average of our attempts, AFTER we did them, with independance of the number of attempts
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
