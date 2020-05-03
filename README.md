@@ -17,10 +17,30 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+ANSWER:
+
+Expected value, refers to a single event that will happen in the future; ie: in future I expect my bus 
+to be 50% likely to be earlier or later than now. 
+Average value is a statistical generalization of multiple occurances of an event: ie based on the past 
+ten times I waited for a bus, the bus arrived at X time.
+
+The expectation is the average value or mean of a random variable not a probability distribution. 
+As such it is for discrete random variables the weighted average of the values the random variable takes on where the weighting is according to the relative frequency of occurrence of those individual values. 
+For an absolutely continuous random variable it is the integral of values x multiplied by the probability density. 
+Observed data can be viewed as the values of a collection of independent identically distributed random variables. 
+The sample mean (or sample expectation) is defined as the expectation of the data with respect to the empirical distribution for the observed data. This makes it simply the arithmetic average of the data.
+
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
+
+Overreliance on P-values as a metric of significance negates the importance of actually analysing the data itself on it's strength.
+A p value denotes the probability of your experiment happening the way it did the way it did. 
+A p value of 0.05 means there is a 5% chance that the results you got support your conclusion not because there is a bias for some reason towards such results (say a coin is heaver on one side than another) 
+but because of just dumb luck.
+
 
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
@@ -56,6 +76,26 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+Carrying out an A/B Test:
+
+	1. Design the study to investigate your aim, without being biased towards one result or another, whilst collecting sufficient information.
+	2. Establish the null hypothesis and alternative hypothesis. 
+	3. Identify your users.
+	4. Detemrine the key metrics eg: hits per hour / day / month.
+	5. Run the test, record the success rate, allow it to run for a sufficient amount of time.
+	6. Plot the distribution of the difference between the samples.
+	7. Calculate the statistical power.
+	8. Evaluate how the sample size affects testing. 
+	9. Take action based on the outputted metrics and plan the next A/B test based on the significance or lack thereof of
+	previous test. 
+
+
+
+
+
+
+
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
