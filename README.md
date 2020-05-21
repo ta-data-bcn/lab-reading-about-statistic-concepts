@@ -17,11 +17,14 @@ You know both concepts but, is there a difference? Are they synonims? Start inve
 
 As a good reference (once you have looked for some information) you have   [this](http://expected.news/value2) article.
 
+#### Answer: They are interchangable terms when you are trying to predict the outcome of a random variable in a probability observation. While in descriptive statistics you have all the data the mean tells information about the avergae values of data in probability it is used to assign value to an occurrence, therefore the mean becomes the expected value. 
+
 ### Challenge 2: What is the "problem" in science with p-values?
 We have told you that a lot of scientifical investigations are based on p-values. The last week, Nature magazine published [an article](http://nature.social/statistical4) regarding the problem. Start digging on it!
 
 Don't hesitate to use more articles if you want to :)
 
+#### Answer: They state that disregarding the conclusion of a full study based only on the p-statistic significance may end up in False Negative conclusions. The p-statistic concludes the significance of a study and not the assumption of the null hypothesis or that there is no effect of a variable over the other.
 
 ### Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
@@ -39,11 +42,11 @@ To do this, is very important first to design our experiment.
 One example:
 Our application has a lot of mini-games. We want people to reach the games that we think are the best but the behaviour is not the expected, they don't reach them.
 
-So we call a designer and after a lot of work he shows us a new design for our application: we will add a botton specific for that kinf of games inviting the users to click on it:
+So we call a designer and after a lot of work he shows us a new design for our application: we will add a botton specific for that kind of games inviting the users to click on it:
 
 *Click here to discover cool games!*
 
-We think it will work but can we be sure? So instead of implementing this new botton for all users, we implement it for 10% and we compare the results with the users that didn't have it. Is there a significant difference? Is our botton working?
+We think it will work but can we be sure? So instead of implementing this new botton for all users, we implement it for 10% and we compare the results with the users that didn't have it. Is there a significant difference? Is our button working?
 
 Read more about A/B testing with a couple of examples:
 
@@ -56,6 +59,12 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+#### Answer: 
+
+I would run a test split in 40/60 always assuming the 60% sample is the current layout of the site. 
+
+Then I would perform a X2 Chi Square test to test significance of such particular click. As I would be testing conversion rate. I would run a Z-test just for comparison, as in the article they explain that Z-test is more sensitive. 
 
 ## Deliverables
 You need to submit a markdown file with the answers to the questions above. You can create a new `.md` file or directly edit the `README.md`.
